@@ -60,10 +60,10 @@
         function addChild($event) {
             
             const dialog = {
-                view: "itempicker",
+                view: "childpicker",
                 availableItems: vm.contentTypes,
                 selectedItems: vm.selectedChildren,
-                position: "target",
+                position: "right",
                 event: $event,
                 submit: function (model) {
                     if (model.selectedItem) {
